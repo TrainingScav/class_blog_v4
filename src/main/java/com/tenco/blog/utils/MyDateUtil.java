@@ -15,7 +15,7 @@ public class MyDateUtil {
         // getTime() 메서드를 호출해서 밀리초 단위로 시간을 받아 --> Date 객체 생성
         Date currentDate = new Date(time.getTime());
 
-        // apache Commons 라이브러리 DateFormatUtils 클래스를 활용
+        // apache Commons 라이브러리 DateFormatUtils 클래스를 활용!
         return DateFormatUtils.format(currentDate, "yyyy-MM-dd HH:mm");
     }
 }
